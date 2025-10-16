@@ -9,7 +9,6 @@ function loadNotes() {
 
     const deleteBtn = document.createElement("button");
     deleteBtn.textContent = "🗑️ Smazat";
-    deleteBtn.style.marginLeft = "10px";
     deleteBtn.onclick = () => deleteNote(index);
 
     li.appendChild(deleteBtn);
