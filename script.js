@@ -6,7 +6,13 @@ function loadNotes() {
   notes.forEach((note, index) => {
     const li = document.createElement("li");
     li.textContent = note;
-    li.onclick = () => deleteNote(index);
+
+    const deleteBtn = document.createElement("button");
+    deleteBtn.textContent = "🗑️ Smazat";
+    deleteBtn.style.marginLeft = "10px";
+    deleteBtn.onclick = () => deleteNote(index);
+
+    li.appendChild(deleteBtn);
     noteList.appendChild(li);
   });
 }
