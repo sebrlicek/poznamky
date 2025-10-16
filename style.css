@@ -1,21 +1,42 @@
 body {
   font-family: sans-serif;
-  margin: 40px;
+  margin: 0;
+  padding: 40px;
   background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
 }
 
-input {
+.container {
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+textarea {
   padding: 10px;
-  width: 300px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 30px;
+  resize: none;
+  margin-bottom: 10px;
+  line-height: 1.6;
 }
 
 button {
-  padding: 10px;
-  margin-left: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  cursor: pointer;
 }
 
 ul {
-  margin-top: 20px;
   list-style-type: none;
   padding: 0;
 }
@@ -25,32 +46,16 @@ li {
   margin-bottom: 10px;
   padding: 15px;
   border-radius: 5px;
-  font-size: 20px; /* ⬅️ Zvětší písmo poznámek */
+  font-size: 20px;
   line-height: 1.6;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.delete-btn {
-  float: right;
-  background-color: #ff4d4d;
-  color: white;
-  border: none;
+li button {
+  font-size: 20px;
   padding: 5px 10px;
-  margin-left: 10px;
-  border-radius: 3px;
   cursor: pointer;
 }
-
-.delete-btn:hover {
-  background-color: #e60000;
-}
-
-textarea {
-  padding: 10px;
-  width: 100%;
-  max-width: 100%;
-  box-sizing: border-box;
-  font-size: 30px;
-  resize: none; /* zakáže natahování */
-  margin-bottom: 10px;
-}
-
