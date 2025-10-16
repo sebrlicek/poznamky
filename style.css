@@ -40,3 +40,17 @@ li {
 .delete-btn:hover {
   background-color: #e60000;
 }
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('SKAUT-Bold.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('TheMixC5-4_SemiLight.otf') format('truetype');
+}
+
+body {
+  font-family: 'SKAUT-Bold.otf','TheMixC5-4_SemiLight.otf' ;
+}
