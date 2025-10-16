@@ -6,14 +6,15 @@ body {
   justify-content: center;
   align-items: flex-start;
   min-height: 100vh;
+  font-family: sans-serif;
 }
 
 .container {
   width: 100%;
-  max-width: 600px;
+  max-width: 800px;
   display: flex;
-  flex-direction: column; /* ⬅️ Zajistí prvky pod sebou */
-  align-items: stretch;    /* ⬅️ Vše bude mít plnou šířku */
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
@@ -22,12 +23,13 @@ h1 {
 }
 
 textarea {
-  font-size: 20px;
+  font-size: 40px;
   padding: 10px;
   resize: none;
   box-sizing: border-box;
   width: 100%;
   margin-bottom: 10px;
+  line-height: 1.6;
 }
 
 button {
@@ -35,30 +37,34 @@ button {
   padding: 10px;
   margin-bottom: 20px;
   cursor: pointer;
-  width: 100%; /* ⬅️ Tlačítko bude stejně široké jako textarea */
+  width: 100%;
 }
 
 ul {
-  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
   padding: 0;
   margin: 0;
+  justify-content: center;
   width: 100%;
 }
 
 li {
   background: #e0e0e0;
-  margin-bottom: 10px;
   padding: 15px;
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 1.6;
+  width: 250px;
+  list-style: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 li button {
-  font-size: 14px;
-  padding: 5px 10px;
+  font-size: 30px;
+  padding: 15px 15px;
   cursor: pointer;
 }
