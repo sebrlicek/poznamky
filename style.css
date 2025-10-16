@@ -1,5 +1,7 @@
 body {
-  font-family: sans-serif;
+body {
+  font-family: 'SKAUT-Bold.otf','TheMixC5-4_SemiLight.otf' ;
+}
   margin: 40px;
   background-color: #006994;
 }
@@ -49,8 +51,4 @@ li {
 @font-face {
   font-family: 'MyFont';
   src: url('TheMixC5-4_SemiLight.otf') format('truetype');
-}
-
-body {
-  font-family: 'SKAUT-Bold.otf','TheMixC5-4_SemiLight.otf' ;
 }
