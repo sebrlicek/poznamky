@@ -43,11 +43,11 @@ ul {
 
 li {
   background: #e0e0e0;
-  padding: 30px;
+  padding: 20px;
   border-radius: 5px;
   font-size: 20px;
   line-height: 1.6;
-  width: 300px;
+  width: 350px;
   list-style: none;
   display: flex;
   justify-content: space-between;
